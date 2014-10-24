@@ -14,17 +14,24 @@ Collection of free books, papers and articles related to CTF challenges.
 * [Testing For DOM-based XSS](https://www.owasp.org/index.php/Testing_for_DOM-based_Cross_site_scripting_(OWASP-DV-003))
 
 #### Cross-Site Request Forgery (CSRF)
-
+* [OWASP - CSRF](https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF))
+* [Testing For CSRF](https://www.owasp.org/index.php/Testing_for_CSRF_(OTG-SESS-005))
 
 #### Local File Inclusion (LFI)
-
+* [Testing For LFI](https://www.owasp.org/index.php/Testing_for_Local_File_Inclusion)
 
 #### Remote File Inclusion (RFI)
-
+* [Testing for RFI](https://www.owasp.org/index.php/Testing_for_Remote_File_Inclusion)
 
 #### SQL-Injection (SQLi)
 * [OWASP - SQLi](https://www.owasp.org/index.php/SQL_Injection)
 * [Testing For SQL Injections](https://www.owasp.org/index.php/Testing_for_SQL_Injection_(OTG-INPVAL-005))
+
+#### LDAP Injection
+* [OWASP - LDAP Injection](https://www.owasp.org/index.php/LDAP_injection)
+* [Testing For LDAP Injection](https://www.owasp.org/index.php/Testing_for_LDAP_Injection_(OTG-INPVAL-006))
+* [LDAP Injection & Blind LDAP Injection](https://www.blackhat.com/presentations/bh-europe-08/Alonso-Parada/Whitepaper/bh-eu-08-alonso-parada-WP.pdf)
+
 
 #### Path Traversal
 * [OWASP - Path Traversal](https://www.owasp.org/index.php/Path_Traversal)
