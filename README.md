@@ -30,7 +30,7 @@ Collection of free books, papers and articles related to CTF challenges.
 * [OWASP - Path Traversal](https://www.owasp.org/index.php/Path_Traversal)
 * [Testing For Path Traversal](https://www.owasp.org/index.php/Testing_for_Path_Traversal_(OTG-AUTHZ-001))
 
-#### Languages
+#### Languages / Databases
 * [PHP](http://php.net/manual/en/)
 * [ASP.NET](http://www.asp.net/get-started)
 * [Node.js](http://nodejs.org/documentation/)
