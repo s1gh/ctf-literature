@@ -55,8 +55,7 @@ Collection of free books, papers and articles related to CTF challenges.
 * [Berkeley DB](http://docs.oracle.com/cd/E17076_04/html/index.html)
 
 #### Tools
-###### Linux
-###### Windows
+* [w3af - Web Application Attack and Audit Framework (Windows/Linux)](http://sourceforge.net/projects/w3af/)
 
 
 
