@@ -5,11 +5,31 @@ Collection of free books, papers and articles related to CTF challenges.
 
 ## Web
 #### Cross-site scripting (XSS)
+* [OWASP - XSS](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS))
+* [OWASP - XSS Filter Evasion Cheat Sheet](https://www.owasp.org/index.php/XSS_Filter_Evasion_Cheat_Sheet)
+* [DOM Clobbering](http://www.thespanner.co.uk/2013/05/16/dom-clobbering/)
+* [HTML Markup Injection](http://lcamtuf.coredump.cx/postxss/#dangling-markup-injection)
+* [Testing For Reflected XSS](https://www.owasp.org/index.php/Testing_for_Reflected_Cross_site_scripting_(OWASP-DV-001))
+* [Testing For Stored XSS](https://www.owasp.org/index.php/Testing_for_Stored_Cross_site_scripting_(OWASP-DV-002))
+* [Testing For DOM-based XSS](https://www.owasp.org/index.php/Testing_for_DOM-based_Cross_site_scripting_(OWASP-DV-003))
+
 #### Cross-Site Request Forgery (CSRF)
+
+
 #### Local File Inclusion (LFI)
+
+
 #### Remote File Inclusion (RFI)
+
+
 #### SQL-Injection (SQLi)
+* [OWASP - SQLi](https://www.owasp.org/index.php/SQL_Injection)
+* [Testing For SQL Injections](https://www.owasp.org/index.php/Testing_for_SQL_Injection_(OTG-INPVAL-005))
+
 #### Path Traversal
+* [OWASP - Path Traversal](https://www.owasp.org/index.php/Path_Traversal)
+* [Testing For Path Traversal](https://www.owasp.org/index.php/Testing_for_Path_Traversal_(OTG-AUTHZ-001))
+
 #### Languages
 * PHP
 * ASP
