@@ -76,7 +76,6 @@ Collection of free books, papers and articles related to CTF challenges.
 #### Introduction To Crypto
 * [Learn Cryptography](http://learncryptography.com/)
 * [Cryptography World](http://www.cryptographyworld.com/)
-* 
 
 #### Tools
 
