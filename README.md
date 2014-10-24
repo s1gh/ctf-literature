@@ -68,8 +68,9 @@ Collection of free books, papers and articles related to CTF challenges.
 * [ELF Obfuscation: Let Analysis Tools Show Wrong External Symbol Calls](http://h4des.org/blog/index.php?/archives/346-ELF-obfuscation-let-analysis-tools-show-wrong-external-symbol-calls.html)
 
 #### Tools
-###### Linux
-###### Windows
+* [OllyDBG (x86 Debugger)](http://www.ollydbg.de/)
+* [IDA Pro (Interactive Disassembler](https://www.hex-rays.com/products/ida/)
+* [strace (Linux)](http://linux.die.net/man/1/strace)
 
 
 ## Crypto
@@ -82,5 +83,3 @@ Collection of free books, papers and articles related to CTF challenges.
 
 ## Exploitation
 #### Tools
-###### Linux
-###### Windows
