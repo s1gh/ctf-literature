@@ -35,10 +35,13 @@ Collection of free books, papers and articles related to CTF challenges.
 * [Testing For LDAP Injection](https://www.owasp.org/index.php/Testing_for_LDAP_Injection_(OTG-INPVAL-006))
 * [LDAP Injection & Blind LDAP Injection](https://www.blackhat.com/presentations/bh-europe-08/Alonso-Parada/Whitepaper/bh-eu-08-alonso-parada-WP.pdf)
 
-
 #### Path Traversal
 * [OWASP - Path Traversal](https://www.owasp.org/index.php/Path_Traversal)
 * [Testing For Path Traversal](https://www.owasp.org/index.php/Testing_for_Path_Traversal_(OTG-AUTHZ-001))
+
+#### Cookies
+* [OWASP - Session Hijacking](https://www.owasp.org/index.php/Session_hijacking_attack)
+* [Cookies](http://www.blackhatlibrary.net/Cookies)
 
 #### Languages / Databases
 * [PHP](http://php.net/manual/en/)
