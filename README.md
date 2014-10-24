@@ -22,6 +22,7 @@ Collection of free books, papers and articles related to CTF challenges.
 
 #### Remote File Inclusion (RFI)
 * [Testing for RFI](https://www.owasp.org/index.php/Testing_for_Remote_File_Inclusion)
+* [CWE-98: Improper Control of Filename for Include/Require Statement in PHP Program](http://cwe.mitre.org/data/definitions/98.html)
 
 #### SQL-Injection (SQLi)
 * [OWASP - SQLi](https://www.owasp.org/index.php/SQL_Injection)
