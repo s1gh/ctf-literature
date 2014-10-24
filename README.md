@@ -31,11 +31,20 @@ Collection of free books, papers and articles related to CTF challenges.
 * [Testing For Path Traversal](https://www.owasp.org/index.php/Testing_for_Path_Traversal_(OTG-AUTHZ-001))
 
 #### Languages
-* PHP
-* ASP
-* NodeJs
-* jQuery
-* Javascript
+* [PHP](http://php.net/manual/en/)
+* [ASP.NET](http://www.asp.net/get-started)
+* [Node.js](http://nodejs.org/documentation/)
+* [jQuery](http://api.jquery.com/)
+* [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
+* [Ruby](http://ruby-doc.org/)
+
+---
+
+* [MySQL](http://dev.mysql.com/doc/)
+* [MSSQL](http://msdn.microsoft.com/en-us/library/bb545450.aspx)
+* [PostgreSQL](http://www.postgresql.org/docs/)
+* [SQLite](https://www.sqlite.org/docs.html)
+* [Berkeley DB](http://docs.oracle.com/cd/E17076_04/html/index.html)
 
 #### Tools
 ###### Linux
