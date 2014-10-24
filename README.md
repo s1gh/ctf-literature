@@ -24,6 +24,13 @@ Collection of free books, papers and articles related to CTF challenges.
 
 
 ## Reverse Engineering
+
+#### Introduction To Reverse Engineering
+* [Reverse Engineering for Beginners](http://beginners.re/)
+
+#### Obfuscation
+* [ELF Obfuscation: Let Analysis Tools Show Wrong External Symbol Calls](http://h4des.org/blog/index.php?/archives/346-ELF-obfuscation-let-analysis-tools-show-wrong-external-symbol-calls.html)
+
 #### Tools
 ###### Linux
 ###### Windows
