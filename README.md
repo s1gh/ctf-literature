@@ -27,6 +27,8 @@ Collection of free books, papers and articles related to CTF challenges.
 #### SQL-Injection (SQLi)
 * [OWASP - SQLi](https://www.owasp.org/index.php/SQL_Injection)
 * [Testing For SQL Injections](https://www.owasp.org/index.php/Testing_for_SQL_Injection_(OTG-INPVAL-005))
+* [SQL Backdoors](http://www.blackhatlibrary.net/SQL_Backdoors)
+* [Bypassing Modern SQL Injection Security Measures](http://www.blackhatlibrary.net/Sql_injection#Bypassing_modern_SQL_injection_security_measures)
 
 #### LDAP Injection
 * [OWASP - LDAP Injection](https://www.owasp.org/index.php/LDAP_injection)
@@ -83,3 +85,5 @@ Collection of free books, papers and articles related to CTF challenges.
 
 ## Exploitation
 #### Tools
+* [Metasploit](http://www.metasploit.com/)
+* 
