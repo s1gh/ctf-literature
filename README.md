@@ -89,4 +89,3 @@ Collection of free books, papers and articles related to CTF challenges.
 ## Exploitation
 #### Tools
 * [Metasploit](http://www.metasploit.com/)
-* 
