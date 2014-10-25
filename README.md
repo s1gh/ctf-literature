@@ -3,6 +3,8 @@ CTF Literature
 
 Collection of free books, papers and articles related to CTF challenges.
 
+[How To Get Started In CTF](http://www.endgame.com/blog/how-to-get-started-in-ctf.html)
+
 # Web
 #### Cross-site scripting (XSS)
 * [OWASP - XSS](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS))
