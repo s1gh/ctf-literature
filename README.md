@@ -6,6 +6,8 @@ Collection of free books, papers and articles related to CTF challenges.
 [How To Get Started In CTF](http://www.endgame.com/blog/how-to-get-started-in-ctf.html)
 <br>
 [CTFtime](https://ctftime.org/)
+<br>
+[Hack.lu (2014) Writeups](https://github.com/ctfs/write-ups/tree/master/hack-lu-ctf-2014)
 
 # Web
 #### Cross-site scripting (XSS)
