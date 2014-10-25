@@ -45,6 +45,7 @@ Collection of free books, papers and articles related to CTF challenges.
 
 #### Command Injection
 * [The Unexpected Dangers Of preg_replace()](https://bitquark.co.uk/blog/2013/07/23/the_unexpected_dangers_of_preg_replace)
+* [Exploiting PHP PCRE Functions](http://www.madirish.net/402)
 
 #### Languages / Databases
 * [PHP](http://php.net/manual/en/)
