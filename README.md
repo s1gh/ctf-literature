@@ -59,16 +59,14 @@ Collection of free books, papers and articles related to CTF challenges.
 * [SQLite](https://www.sqlite.org/docs.html)
 * [Berkeley DB](http://docs.oracle.com/cd/E17076_04/html/index.html)
 
+#### Tools
+* [w3af - Web Application Attack and Audit Framework (Windows/Linux)](http://w3af.org/)
+
 #### Practice
 * [HackMe](https://hack.me/)
 * [Damn Vulnerable Web Application (DVWA)](http://www.dvwa.co.uk/)
 * [Mutillidae](http://sourceforge.net/projects/mutillidae/)
 * [OWASP Broken Web Applications Project](https://www.owasp.org/index.php/OWASP_Broken_Web_Applications_Project)
-
-#### Tools
-* [w3af - Web Application Attack and Audit Framework (Windows/Linux)](http://w3af.org/)
-
-
 
 ## Reverse Engineering
 
@@ -78,14 +76,13 @@ Collection of free books, papers and articles related to CTF challenges.
 #### Obfuscation
 * [ELF Obfuscation: Let Analysis Tools Show Wrong External Symbol Calls](http://h4des.org/blog/index.php?/archives/346-ELF-obfuscation-let-analysis-tools-show-wrong-external-symbol-calls.html)
 
-
-#### Practice
-* [Crackmes.de](http://www.crackmes.de/)
-
 #### Tools
 * [OllyDBG (x86 Debugger)](http://www.ollydbg.de/)
 * [IDA Pro (Interactive Disassembler](https://www.hex-rays.com/products/ida/)
 * [strace (Linux)](http://linux.die.net/man/1/strace)
+
+#### Practice
+* [Crackmes.de](http://www.crackmes.de/)
 
 
 ## Crypto
@@ -98,8 +95,8 @@ Collection of free books, papers and articles related to CTF challenges.
 
 ## Exploitation
 
-#### Practice
-* [Exploit Exercises](https://exploit-exercises.com/)
-
 #### Tools
 * [Metasploit](http://www.metasploit.com/)
+
+#### Practice
+* [Exploit Exercises](https://exploit-exercises.com/)
