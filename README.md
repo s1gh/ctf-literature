@@ -94,6 +94,6 @@ Collection of free books, papers and articles related to CTF challenges.
 
 #### Practice
 * [Exploit Exercises](https://exploit-exercises.com/)
-* 
+
 #### Tools
 * [Metasploit](http://www.metasploit.com/)
