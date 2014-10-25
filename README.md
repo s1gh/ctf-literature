@@ -102,6 +102,7 @@ Collection of free books, papers and articles related to CTF challenges.
 * [The Linux man-pages Project](https://www.kernel.org/doc/man-pages/)
 * [Special File Permissions (setuid, setgid and Sticky Bit)](http://docs.oracle.com/cd/E19683-01/806-4078/secfiles-69/index.html)
 * [Linux Users and Groups](https://www.linode.com/docs/tools-reference/linux-users-and-groups)
+
 #### Tools
 * [Metasploit](http://www.metasploit.com/)
 
