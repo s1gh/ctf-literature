@@ -43,6 +43,9 @@ Collection of free books, papers and articles related to CTF challenges.
 * [OWASP - Session Hijacking](https://www.owasp.org/index.php/Session_hijacking_attack)
 * [Cookies](http://www.blackhatlibrary.net/Cookies)
 
+#### Command Injection
+* [The Unexpected Dangers Of preg_replace()](https://bitquark.co.uk/blog/2013/07/23/the_unexpected_dangers_of_preg_replace)
+
 #### Languages / Databases
 * [PHP](http://php.net/manual/en/)
 * [ASP.NET](http://www.asp.net/get-started)
