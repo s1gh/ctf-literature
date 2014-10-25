@@ -3,7 +3,7 @@ CTF Literature
 
 Collection of free books, papers and articles related to CTF challenges.
 
-## Web
+# Web
 #### Cross-site scripting (XSS)
 * [OWASP - XSS](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS))
 * [OWASP - XSS Filter Evasion Cheat Sheet](https://www.owasp.org/index.php/XSS_Filter_Evasion_Cheat_Sheet)
@@ -72,7 +72,7 @@ Collection of free books, papers and articles related to CTF challenges.
 * [Mutillidae](http://sourceforge.net/projects/mutillidae/)
 * [OWASP Broken Web Applications Project](https://www.owasp.org/index.php/OWASP_Broken_Web_Applications_Project)
 
-## Reverse Engineering
+# Reverse Engineering
 
 #### Introduction To Reverse Engineering
 * [Reverse Engineering for Beginners](http://beginners.re/)
@@ -89,7 +89,7 @@ Collection of free books, papers and articles related to CTF challenges.
 * [Crackmes.de](http://www.crackmes.de/)
 
 
-## Crypto
+# Crypto
 #### Introduction To Crypto
 * [Learn Cryptography](http://learncryptography.com/)
 * [Cryptography World](http://www.cryptographyworld.com/)
@@ -97,7 +97,7 @@ Collection of free books, papers and articles related to CTF challenges.
 #### Tools
 
 
-## Exploitation
+# Exploitation
 #### General Information
 * [The Linux man-pages Project](https://www.kernel.org/doc/man-pages/)
 * [Special File Permissions (setuid, setgid and Sticky Bit)](http://docs.oracle.com/cd/E19683-01/806-4078/secfiles-69/index.html)
@@ -109,4 +109,4 @@ Collection of free books, papers and articles related to CTF challenges.
 #### Practice
 * [Exploit Exercises](https://exploit-exercises.com/)
 
-## Forensics
+# Forensics
