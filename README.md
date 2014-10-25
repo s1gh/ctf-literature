@@ -60,7 +60,10 @@ Collection of free books, papers and articles related to CTF challenges.
 * [Berkeley DB](http://docs.oracle.com/cd/E17076_04/html/index.html)
 
 #### Practice
-[HackMe](https://hack.me/)
+* [HackMe](https://hack.me/)
+* [Damn Vulnerable Web Application (DVWA)](http://www.dvwa.co.uk/)
+* [Mutillidae](http://sourceforge.net/projects/mutillidae/)
+* [OWASP Broken Web Applications Project](https://www.owasp.org/index.php/OWASP_Broken_Web_Applications_Project)
 
 #### Tools
 * [w3af - Web Application Attack and Audit Framework (Windows/Linux)](http://w3af.org/)
