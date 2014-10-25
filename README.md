@@ -5,7 +5,7 @@ Collection of free books, papers and articles related to CTF challenges.
 
 [How To Get Started In CTF](http://www.endgame.com/blog/how-to-get-started-in-ctf.html)
 
-[CTF Calendar](https://ctftime.org/)
+[CTFtime](https://ctftime.org/)
 
 # Web
 #### Cross-site scripting (XSS)
