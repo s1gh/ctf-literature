@@ -36,6 +36,7 @@ Collection of free books, papers and articles related to CTF challenges.
 * [SQL Backdoors](http://www.blackhatlibrary.net/SQL_Backdoors)
 * [Bypassing Modern SQL Injection Security Measures](http://www.blackhatlibrary.net/Sql_injection#Bypassing_modern_SQL_injection_security_measures)
 * [9.6 Comment Syntax](http://dev.mysql.com/doc/refman/5.1/en/comments.html)
+* [Cheat Sheets](http://pentestmonkey.net/category/cheat-sheet/sql-injection)
 * [[video] Advanced SQL Injection](https://www.youtube.com/watch?v=rdyQoUNeXSg)
 
 #### LDAP Injection
