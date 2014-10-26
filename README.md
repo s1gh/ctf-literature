@@ -74,6 +74,7 @@ Collection of free books, papers and articles related to CTF challenges.
 
 #### Tools
 * [w3af - Web Application Attack and Audit Framework (Windows/Linux)](http://w3af.org/)
+* [Firefox - Addon Pack (Web Pen Testing)](https://addons.mozilla.org/en-US/firefox/collections/jdruin/pro-web-developer-qa-pack/)
 
 #### Practice
 * [HackMe](https://hack.me/)
