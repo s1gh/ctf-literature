@@ -1,0 +1,1 @@
+./mp64.bin -i --increment-min=6 --increment-max=14 -1 ?l?u?d ?1?1?1?1?1?1?1?1?1?1?1?1?1 | ./oclHashcat-plus64.bin -m 2500 /home/p1xi3/Downloads/18360_1338934241.hccap

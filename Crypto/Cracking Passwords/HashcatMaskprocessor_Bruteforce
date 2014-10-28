@@ -1,0 +1,1 @@
+./mp64.bin -1 ?l?u?d?s -i --increment-min=6 --increment-max=12 ?1?1?1?1?1?1?1?1?1?1?1?1 | ./oclHashcat-plus32.bin -m 0 -r rules/combinator.rule ff56e15165594cac8ad689471d579bd7

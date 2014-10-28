@@ -1,0 +1,176 @@
+var acct = 'ce67205d060da971ea65cc84e610f5a2';
+var thisdate = new Date();
+var newImage = document.createElement("img");
+newImage.src ="http://www.intensedebate.com/remoteVisit.php?acct="+acct+"&time="+thisdate.getTime();
+newImage.style.display = "none";
+var IDHasLoaded = false;
+
+function id_blogger_template_init()
+{		
+	document.body.appendChild(newImage);
+	
+	var links = document.getElementsByTagName('A');		
+	var IDLinks = Array();
+	var sepQuery = Array();
+	for(var i=0; i<links.length; i++)
+	{
+		if(links[i].className=="IDCommentsReplace")
+		{
+			IDLinks[IDLinks.length] = links[i];
+		}
+	}
+	
+	var strQuery = "acct="+acct+"&links=";
+	for(var i=0; i<IDLinks.length; i++)
+	{
+		if(IDLinks[i].className=="IDCommentsReplace")
+		{
+			sepQuery[i] =IDLinks[i].href;
+			strQuery+=IDLinks[i].href+"|";
+		}
+	}
+	strQuery += "&ids=";
+	for(var i=0; i<IDLinks.length; i++)
+	{
+		if(IDLinks[i].className=="IDCommentsReplace")
+		{
+			sepQuery[i] +="&ids="+IDLinks[i].name;
+			strQuery+=IDLinks[i].name+"|";
+		}
+	}
+	
+	strQuery += "&titles=";
+	for(var i=0; i<IDLinks.length; i++)
+	{
+		if(IDLinks[i].className=="IDCommentsReplace")
+		{
+			if(document.getElementById('IDCommentPostInfoTitle'+IDLinks[i].name))
+				sepQuery[i] +="&titles="+encodeURIComponent(document.getElementById('IDCommentPostInfoTitle'+IDLinks[i].name).innerHTML);
+				strQuery += encodeURIComponent(document.getElementById('IDCommentPostInfoTitle'+IDLinks[i].name).innerHTML) + "|";
+		}
+	}
+	
+	if(IDLinks[0] && document.getElementById('IDCommentPostInfoTime'+IDLinks[0].name))
+	{
+		strQuery += "&times=";
+		for(var i=0; i<IDLinks.length; i++)
+		{
+			if(IDLinks[i].className=="IDCommentsReplace")
+			{
+				if(document.getElementById('IDCommentPostInfoTitle'+IDLinks[i].name))
+					sepQuery[i] +="&times="+encodeURIComponent(document.getElementById('IDCommentPostInfoTime'+IDLinks[i].name).innerHTML);
+					strQuery += encodeURIComponent(document.getElementById('IDCommentPostInfoTime'+IDLinks[i].name).innerHTML) + "|";
+			}
+		}
+	}
+			
+	if(IDLinks[0] && document.getElementById('IDCommentPostInfoAuthor'+IDLinks[0].name))
+	{
+		strQuery += "&authors=";
+		for(var i=0; i<IDLinks.length; i++)
+		{
+			if(IDLinks[i].className=="IDCommentsReplace")
+			{	
+				if(document.getElementById('IDCommentPostInfoTitle'+IDLinks[i].name))
+					sepQuery[i] +="&authors="+encodeURIComponent(document.getElementById('IDCommentPostInfoAuthor'+IDLinks[i].name).innerHTML);
+					strQuery += encodeURIComponent(document.getElementById('IDCommentPostInfoAuthor'+IDLinks[i].name).innerHTML) + "|";
+			}
+		}
+	}
+	
+	if(IDLinks[0] && document.getElementById('IDCommentPostInfoCats'+IDLinks[0].name))
+	{
+		strQuery += "&cats=";
+		for(var i=0; i<IDLinks.length; i++)
+		{
+			if(IDLinks[i].className=="IDCommentsReplace")
+			{
+				if(document.getElementById('IDCommentPostInfoTitle'+IDLinks[i].name))
+					sepQuery[i] +="&cats="+encodeURIComponent(document.getElementById('IDCommentPostInfoCats'+IDLinks[i].name).innerHTML);
+					strQuery += encodeURIComponent(document.getElementById('IDCommentPostInfoCats'+IDLinks[i].name).innerHTML) + "||";
+			}
+		}
+	}
+	//strQuery = strQuery.substring(0, strQuery.length - 1);
+	//ie max 2083, url length = 53
+	if(strQuery.length<=2030 || navigator.appName != "Microsoft Internet Explorer")
+	{
+		var newScriptTag = document.createElement("script");
+		newScriptTag.type = "text/javascript";
+		newScriptTag.src = "http://www.intensedebate.com/js/getCommentCounts.php?"+strQuery;
+		newScriptTag.defer = "defer";
+		document.getElementsByTagName("head")[0].appendChild(newScriptTag);
+	}
+	else
+	{
+		for(var i=0; i<sepQuery.length; i++)
+		{
+			var newQuery = sepQuery[i];
+			var newScriptName = document.createElement("script");
+			newScriptName.type = "text/javascript";
+			newScriptName.src = "http://www.intensedebate.com/js/getCommentCounts.php?acct="+acct+"&links="+newQuery+"&src=splits";
+			newScriptName.defer = "defer";
+			document.getElementsByTagName("head")[0].appendChild(newScriptName);
+		}
+	}
+}
+
+var browser=navigator.appName;
+if(browser == "Microsoft Internet Explorer")
+{
+	if (window.addEventListener) 
+	{ 
+	    window.addEventListener("load", chkLoaded, false); 
+	} 
+	else if (window.attachEvent) 
+	{
+	    window.attachEvent('onload', chkLoaded);
+	}
+}
+else
+{
+	chkLoaded();
+}
+
+function chkLoaded()
+{
+	if(('ce67205d060da971ea65cc84e610f5a2'=='ddc63004ec80a8d8ff76b6ff892c02cc' && !document.getElementById("footer")) || ('ce67205d060da971ea65cc84e610f5a2'!='ddc63004ec80a8d8ff76b6ff892c02cc' && !document.getElementById("blog-pager")))
+		setTimeout("chkLoaded()", 100);
+	else
+	{		
+		id_blogger_template_init();		
+		setTimeout("needReload()", 100);
+	}
+}
+
+function needReload()
+{
+	if(!IDHasLoaded)
+	{
+		setTimeout("needReload()", 100);
+		return;
+	}
+	
+	var count = 0;
+	var links = document.getElementsByTagName('A');
+	for(var i=0; i<links.length; i++)
+	{
+		if(links[i].className=="IDCommentsReplace" && links[i].innerHTML == "Comments")
+		{
+			count++;
+			break;
+		}
+	}
+	
+	if(count>=1)
+	{
+		
+		setTimeout("chkLoaded();", 300);
+	}
+	else
+	{
+		setTimeout("needReload()", 100);
+	}
+}
+
+//chkLoaded();
