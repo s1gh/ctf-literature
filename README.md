@@ -38,6 +38,7 @@ Collection of free books, papers and articles related to CTF challenges.
 * [9.6 Comment Syntax](http://dev.mysql.com/doc/refman/5.1/en/comments.html)
 * [Cheat Sheets](http://pentestmonkey.net/category/cheat-sheet/sql-injection)
 * [[video] Advanced SQL Injection](https://www.youtube.com/watch?v=rdyQoUNeXSg)
+* [[video] Defcon 18 - You Spent All That Money And You Still Got Owned](https://www.youtube.com/watch?v=kO4Q2ErZX8U)
 
 #### LDAP Injection
 * [OWASP - LDAP Injection](https://www.owasp.org/index.php/LDAP_injection)
