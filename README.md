@@ -87,6 +87,7 @@ Collection of free books, papers and articles related to CTF challenges.
 
 #### Introduction To Reverse Engineering
 * [Reverse Engineering for Beginners](http://beginners.re/)
+* [Debugging With EDB](http://www2.sscc.ru/Links/Litera/edb/edb1.html)
 
 #### Obfuscation
 * [ELF Obfuscation: Let Analysis Tools Show Wrong External Symbol Calls](http://h4des.org/blog/index.php?/archives/346-ELF-obfuscation-let-analysis-tools-show-wrong-external-symbol-calls.html)
