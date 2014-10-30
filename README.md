@@ -115,6 +115,10 @@ Collection of free books, papers and articles related to CTF challenges.
 * [Special File Permissions (setuid, setgid and Sticky Bit)](http://docs.oracle.com/cd/E19683-01/806-4078/secfiles-69/index.html)
 * [Linux Users and Groups](https://www.linode.com/docs/tools-reference/linux-users-and-groups)
 
+####
+* [Exploiting Format String Vulnerabilities](http://crypto.stanford.edu/cs155/papers/formatstring-1.2.pdf)
+* [Off-by-One Exploitation Tutorial ](http://www.intelligentexploit.com/articles/Linux-Off-By-One-Vulnerabilities.pdf)
+
 #### Tools
 * [Metasploit](http://www.metasploit.com/)
 
