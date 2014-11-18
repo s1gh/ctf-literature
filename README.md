@@ -107,7 +107,7 @@ Collection of free books, papers and articles related to CTF challenges.
 * [Cryptography World](http://www.cryptographyworld.com/)
 
 #### Tools
-
+* [HashID (Identify Hashes)](https://github.com/psypanda/hashID)
 
 # Exploitation
 #### Introduction To Exploitation
