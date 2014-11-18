@@ -128,4 +128,5 @@ Collection of free books, papers and articles related to CTF challenges.
 * [Exploit Exercises](https://exploit-exercises.com/)
 
 # Forensics
-TBA...
+#### Introduction To Forensics
+* [List Of File Signatures (Magic Numbers)] (http://en.wikipedia.org/wiki/List_of_file_signatures)
