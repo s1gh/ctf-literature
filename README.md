@@ -3,7 +3,7 @@ CTF Literature
 
 Collection of free books, papers and articles related to CTF challenges.
 
-[How To Get Started In CTF](http://www.endgame.com/blog/how-to-get-started-in-ctf.html)
+[How To Get Started In CTF](https://www.endgame.com/blog/how-get-started-ctf)
 <br>
 [CTFtime](https://ctftime.org/)
 <br>
