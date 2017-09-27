@@ -94,7 +94,7 @@ Collection of free books, papers and articles related to CTF challenges.
 
 #### Tools
 * [OllyDBG (x86 Debugger)](http://www.ollydbg.de/)
-* [IDA Pro (Interactive Disassembler](https://www.hex-rays.com/products/ida/)
+* [IDA Pro (Interactive Disassembler)](https://www.hex-rays.com/products/ida/)
 * [strace (Linux)](http://linux.die.net/man/1/strace)
 
 #### Practice
@@ -119,7 +119,7 @@ Collection of free books, papers and articles related to CTF challenges.
 * [Exploiting Format String Vulnerabilities](http://crypto.stanford.edu/cs155/papers/formatstring-1.2.pdf)
 
 #### Off-By-One Attacks
-* [Off-by-One Exploitation Tutorial ](http://www.intelligentexploit.com/articles/Linux-Off-By-One-Vulnerabilities.pdf)
+* [Off-by-One Exploitation Tutorial](http://www.intelligentexploit.com/articles/Linux-Off-By-One-Vulnerabilities.pdf)
 
 #### Tools
 * [Metasploit](http://www.metasploit.com/)
