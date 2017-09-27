@@ -129,7 +129,7 @@ Collection of free books, papers and articles related to CTF challenges.
 
 # Forensics
 #### Introduction To Forensics
-* [List Of File Signatures (Magic Numbers)] (http://en.wikipedia.org/wiki/List_of_file_signatures)
+* [List Of File Signatures (Magic Numbers)](http://en.wikipedia.org/wiki/List_of_file_signatures)
 
 #### Tools
-* [Top 20 Free Forensics Tools] (https://techtalk.gfi.com/top-20-free-digital-forensic-investigation-tools-for-sysadmins/)
+* [Top 20 Free Forensics Tools](https://techtalk.gfi.com/top-20-free-digital-forensic-investigation-tools-for-sysadmins/)
